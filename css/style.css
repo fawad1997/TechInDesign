@@ -1777,3 +1777,25 @@ header {
     padding-top: 5%;
     padding-bottom: 3%;
 }
+
+a div p{
+    color: #868F9B;
+}
+
+.big-p{
+    font-size: 34px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 300;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
+}
+@media only screen and (max-width: 767px) {
+    .big-p{
+        font-size: 24px;
+    }
+}
+.footer-li-a{
+    font-weight: normal;
+    color: #EEE;
+    cursor: pointer;
+}
