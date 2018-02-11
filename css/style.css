@@ -208,7 +208,7 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
     border-bottom: 2px solid #EEE;
     color: #354052;
     padding: 0px 10px;
-    opacity: 0.5;
+    opacity: 0.9;
     -webkit-transition: 0.2s border-color, 0.2s opacity;
     transition: 0.2s border-color, 0.2s opacity;
 }
@@ -1783,7 +1783,7 @@ a div p{
 }
 
 .big-p{
-    font-size: 34px;
+    font-size: 34px !important;
     padding-left: 10%;
     padding-right: 10%;
     font-weight: 300;
@@ -1791,11 +1791,25 @@ a div p{
 }
 @media only screen and (max-width: 767px) {
     .big-p{
-        font-size: 24px;
+        font-size: 24px !important;
     }
 }
 .footer-li-a{
     font-weight: normal;
     color: #EEE;
     cursor: pointer;
+}
+
+.no-margin{
+    margin:0px;
+}
+
+.blue-background{
+    color: #FFF;
+    background:  #283747 ;
+}
+.sm-signup-p{
+    font-size: 12px !important;
+    color: #868F9B;
+    margin-top: 1%;
 }
