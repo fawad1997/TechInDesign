@@ -131,8 +131,8 @@ ul, ol {
 }
 
 .sm-padding {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -1812,4 +1812,10 @@ a div p{
     font-size: 12px !important;
     color: #868F9B;
     margin-top: 1%;
+}
+.center{
+    text-align: center;
+}
+.center *{
+    display:inline-block;
 }
