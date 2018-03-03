@@ -1813,3 +1813,9 @@ a div p{
     color: #868F9B;
     margin-top: 1%;
 }
+.center{
+    text-align: center;
+}
+.center *{
+    display:inline-block;
+}
