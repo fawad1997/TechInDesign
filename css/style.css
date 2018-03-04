@@ -1948,3 +1948,10 @@ hr{
         margin: -30px auto 4% 76%;
     }
 }
+.transparent-btn{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+}
