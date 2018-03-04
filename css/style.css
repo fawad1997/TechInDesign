@@ -47,7 +47,7 @@ Table OF Contents
 
 body {
     font-family: 'Varela Round', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.6;
     overflow-x: hidden;
     color: #868F9B;
@@ -1818,4 +1818,13 @@ a div p{
 }
 .center *{
     display:inline-block;
+}
+.profile-name{
+    width: 100%;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Lucida Grande,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,Hiragino Kaku Gothic Pro,Meiryo,Hiragino Sans GB W3,Noto Naskh Arabic,Droid Arabic Naskh,Geeza Pro,Simplified Arabic,Noto Sans Thai,Thonburi,Dokchampa,Droid Sans Thai,Droid Sans Fallback,'.SFNSDisplay-Regular',Heiti SC,Microsoft Yahei;
+    font-size: 24px;
+}
+.profile-less{
+    font-size: 22px;
+    font-weight: 100;
 }
