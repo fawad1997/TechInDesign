@@ -124,60 +124,120 @@
             <div class="row">
                 <div class="col-md-9">
                     <div>
-                        <img src="img/s.png" class="img-responsive" style="min-height:250px; min-width:420px;" />
+                        <img src="img/s.png" class="img-responsive profile-cover" />
                     </div>
                     <!--Cover Div-->
-                    <div style="margin:-75px auto 0; position:relative;width:150px;">
-                        <img src="img/a.jpg" class="img-responsive img-circle" style="height:150px;border:5px solid white;" />
+                    <div class="profile-pic-align">
+                        <img src="img/a.jpg" class="img-responsive img-rounded profile-pic" />
                     </div>
                     <!--/Profile Picture-->
                     <!--Edit-->
-                    <div style="margin:-70px auto 4% 94%; position:relative;width:150px;">
-                        <div style="background:#FAFAFA;width:40px;">
-                                <img src="img/edit.png" style="height:40px;" class="img-circle" />
+                    <div class="right-icon-div">
+                        <div class="round-icon-back">
+                            <i class="fa fa-pencil"></i>
                         </div>
                     </div>
                     <!--/Edit-->
                     <div class="center">
                         <h1 class="profile-name">Fawad Bin Tariq</h1>
-                        <h2 class="profile-name profile-less">Student at Capital University of Science & Technology</h2>
+                        <i class="fa fa-briefcase"></i>
+                        <h2 class="profile-name profile-less inline"> Student at Capital University of Science & Technology</h2>
+                        <hr class="col-xs-12">
+                        <p>Seeking a position in a competitive environment where I can maximize my technical & programming skills
+                            contributing positively to the growth of the company and achieve individual and team goals.</p>
                     </div>
                     <!--/Name Education ends here-->
 
                     <div>
 
-                            <!-- Nav tabs -->
-                            <ul class="nav nav-tabs" role="tablist">
-                              <li role="presentation" class="active"><a href="#wall" aria-controls="home" role="tab" data-toggle="tab">Timeline</a></li>
-                              <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">About</a></li>
-                              <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Connections</a></li>
-                            </ul>
-                          
-                            <!-- Tab panes -->
-                            <div class="tab-content">
-                              <div role="tabpanel" class="tab-pane active" id="wall">Home</div>
-                              <div role="tabpanel" class="tab-pane" id="profile">Profile</div>
-                              <div role="tabpanel" class="tab-pane" id="messages">...</div>
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#wall" aria-controls="home" role="tab" data-toggle="tab">Timeline</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">About</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Connections</a>
+                            </li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="wall">
+                                <div class="row">
+                                    <div class="post">
+                                        <div class="row">
+                                            <div class="col-xs-2 col-md-1">
+                                                <img src="img/a.jpg" class="post-img img-circle" />
+                                            </div>
+                                            <div class="col-xs-10 col-md-11">
+                                                <h6 class="inline small-h">Fawad Bin Tariq</h6>
+                                                <br/>
+                                                <!--Edit-->
+                                                <div class="right-post-icon-div">
+                                                    <div class="round-icon-back">
+                                                        <i class="fa fa-ellipsis-h"></i>
+                                                    </div>
+                                                </div>
+                                                <!--/Edit-->
+                                                <p class="inline twelve-font">Student at Capital University of Science & Technology</p>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <hr/>
+                                                <p class="black">
+                                                    Here are a few highlights of our recent #TalkLikeTED Masterclass organised by DEMO for The World Bank The DEMO team recently
+                                                    conducted a #TalkLikeTED Communications & Storytelling Masterclass for
+                                                    the World Bank. The workshop helped refine the knowledge and skills of
+                                                    the employees in terms of grasping basic communication techniques, presentation
+                                                    skills and much more. The session was very informative and interactive
+                                                    while the participants were full of optimism and energy. This was part
+                                                    of DEMO's Masterclass & Storytelling Series, which proved promising as
+                                                    all the participants developed the core basics for creating and presenting
+                                                    the best presentations and stories.
+                                                </p>
+                                                <p>7 Likes</p>
+                                                <hr/>
+                                                <button class="transparent-btn">
+                                                    <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                                    Like</button>
+                                                <button class="transparent-btn">
+                                                    <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                                    Comment</button>
+                                                <button class="transparent-btn">
+                                                    <i class="fa fa-share" aria-hidden="true"></i>
+                                                    Share</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                          
-                          </div>
+                            <!--/Wall Div-->
+                            <div role="tabpanel" class="tab-pane" id="profile">Profile</div>
+                            <div role="tabpanel" class="tab-pane" id="messages">...</div>
+                        </div>
+
+                    </div>
 
 
                 </div>
 
                 <!-- Aside -->
                 <aside id="aside" class="col-md-3">
-                    
-                    <div class="center" style="background:#FAFAFA;padding:15px 10px;border-radius:5px;">
+
+                    <div class="center aside-profile">
                         <h3 class="profile-less">Download CV as PDF</h3>
                         <hr />
                         <p>You can download your TechIn profile as CV!</p>
                         <img src="img/pdf_ico.jpg" class="img-responsive" />
-                        <button style="margin-top:10px;background-color:#1f618d;background-image:linear-gradient(-180deg,  #1f618d  10%, #1a5276  90%)" class="main-btn btn-block">
-                                <b>Download</b>
-                            </button>
+                        <button style="margin-top:10px;background-color:#1f618d;background-image:linear-gradient(-180deg,  #1f618d  10%, #1a5276  90%)"
+                            class="main-btn btn-block">
+                            <b>Download</b>
+                        </button>
 
-                    </div><!--PDF Div-->
+                    </div>
+                    <!--PDF Div-->
 
                 </aside>
                 <!-- /Aside -->
