@@ -1828,3 +1828,123 @@ a div p{
     font-size: 22px;
     font-weight: 100;
 }
+.right-icon-div{
+    margin:-70px auto 4% 94%;
+    position:relative;
+    width:150px;
+}
+.round-icon-back{
+    background:#FAFAFA;
+    width:40px;
+    font-size:1.7em;
+    text-align:center;
+    border-radius:50%;
+}
+.round-icon-back:hover{
+    cursor: pointer;
+    color: #6195FF;
+    transition: all .3s;
+    outline: none;
+    box-shadow: 0 2px 5px 1px rgba(57,73,76,.2),0 1px 2px rgba(57,73,76,.25);
+}
+.aside-profile{
+    background:#FAFAFA;
+    padding:15px 10px;
+    border-radius:5px;
+}
+.aside-profile:hover{
+    transition: all .3s;
+    outline: none;
+    box-shadow: 0 2px 10px 1px rgba(57,73,76,.4),0 1px 2px rgba(57,73,76,.25);
+}
+.profile-cover{
+    min-height:250px;
+    min-width:420px;
+}
+.profile-pic-align{
+    margin:-75px auto 0; 
+    position:relative;
+    width:150px;
+    height:150px;
+}
+@media only screen and (max-width: 767px) {
+    .profile-pic-align{
+        margin:-60px auto 0;
+        width:120px;
+        height: 120px;
+    }
+    .right-icon-div{
+        margin:-50px auto 4% 92%;
+    }
+    .round-icon-back{
+        background:#FAFAFA;
+        width:30px;
+        font-size:1.3em;
+        text-align:center;
+        border-radius:50%;
+    }
+    
+}
+@media only screen and (max-width: 490px) {
+    .profile-name{
+        margin-top: 2%;
+    }
+    .profile-less{
+        font-size: 18px;
+    }
+}
+.profile-pic{
+    border:5px solid white;
+}
+.inline{
+    display:inline;
+}
+.post{
+    border-radius: 1rem;
+    background:#FAFAFA;
+    margin: 15px;
+    padding: 10px;
+}
+.post:hover{
+    transition: all .3s;
+    outline: none;
+    box-shadow: 0 2px 10px 1px rgba(57,73,76,.1),0 1px 2px rgba(57,73,76,.25);
+}
+.post-img{
+    height: 48px;
+    width: 48px;
+}
+.small-h{
+    margin-top: 10px; margin-bottom: 0px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Lucida Grande,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,Hiragino Kaku Gothic Pro,Meiryo,Hiragino Sans GB W3,Noto Naskh Arabic,Droid Arabic Naskh,Geeza Pro,Simplified Arabic,Noto Sans Thai,Thonburi,Dokchampa,Droid Sans Thai,Droid Sans Fallback,'.SFNSDisplay-Regular',Heiti SC,Microsoft Yahei;
+    font-size: 18px;
+}
+.twelve-font{
+    font-size: 12px;
+}
+hr{
+    margin: 2% auto;
+}
+.black{
+    color:black;
+}
+.right-post-icon-div{
+    margin: -30px auto 4% 90%;
+    position:absolute;
+    width:100px;
+}
+@media only screen and (max-width: 767px) {
+    .right-post-icon-div{
+        margin: -30px auto 4% 88%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .right-post-icon-div{
+        margin: -30px auto 4% 80%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .right-post-icon-div{
+        margin: -30px auto 4% 76%;
+    }
+}
