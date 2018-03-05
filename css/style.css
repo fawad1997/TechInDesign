@@ -1955,3 +1955,7 @@ hr{
     cursor:pointer;
     overflow: hidden;
 }
+
+sup{
+    color:red;
+}
