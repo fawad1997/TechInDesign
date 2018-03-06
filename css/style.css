@@ -212,7 +212,9 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
     -webkit-transition: 0.2s border-color, 0.2s opacity;
     transition: 0.2s border-color, 0.2s opacity;
 }
-
+.input:focus{
+    background-color: #F8F8F8;
+}
 textarea {
     padding: 10px 10px;
     min-height: 80px;

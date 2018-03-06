@@ -40,9 +40,6 @@
 	<![endif]-->
 </head>
 
-<!--I am adding changes here
-
--->
 <body>
 
     <!-- Header -->
@@ -270,7 +267,7 @@
                                                 <br/>
                                                 <!--Edit-->
                                                 <div class="right-post-icon-div">
-                                                    <div class="round-icon-back">
+                                                    <div class="round-icon-back" data-toggle="modal" data-target="#personalModal" data-whatever="@mdo">
                                                         <i class="fa fa-pencil"></i>
                                                     </div>
                                                 </div>
@@ -442,35 +439,35 @@
                                     <!--/Education-->
                                     <!--Skills-->
                                     <div class="post">
-                                            <div class="row">
-                                                <div class="col-xs-12">
-                                                    <h6 class="inline small-h">Skills</h6>
-                                                    <br/>
-                                                    <!--Add-->
-                                                    <div class="right-post-icon-div">
-                                                        <div class="round-icon-back">
-                                                            <i class="fa fa-plus"></i>
-                                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <h6 class="inline small-h">Skills</h6>
+                                                <br/>
+                                                <!--Add-->
+                                                <div class="right-post-icon-div">
+                                                    <div class="round-icon-back">
+                                                        <i class="fa fa-plus"></i>
                                                     </div>
-                                                    <!--/Add-->
-                                                    <hr />
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-xs-12 margin-both-lr">
-                                                            <div class="widget-tags">
-                                                                <a href="#">Java</a>
-                                                                <a href="#">Php</a>
-                                                                <a href="#">Web Development</a>
-                                                                <a href="#">Web Designing</a>
-                                                            </div>
-                                                    </div>
-                                               
-                                                </div>
-    
-                                
+                                                <!--/Add-->
+                                                <hr />
                                             </div>
+                                            <div class="row">
+                                                <div class="col-xs-12 margin-both-lr">
+                                                    <div class="widget-tags">
+                                                        <a href="#">Java</a>
+                                                        <a href="#">Php</a>
+                                                        <a href="#">Web Development</a>
+                                                        <a href="#">Web Designing</a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
                                         </div>
-                                        <!--/Skills-->
+                                    </div>
+                                    <!--/Skills-->
                                 </div>
                             </div>
                             <div role="tabpanel" class="tab-pane" id="messages">Questions in which this user contributes will appear here...</div>
@@ -480,6 +477,83 @@
 
 
                 </div>
+
+                <!-- ***************Modals********************-->
+                <div class="modal fade" id="personalModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="exampleModalLabel">Personal Information</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <!--First Name-->
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="control-label">First Name:</label>
+                                        <input type="text" class="input" id="recipient-name" autofocus>
+                                    </div>
+                                    <!--/First Name-->
+                                    <!--Last Name-->
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="control-label">Last Name:</label>
+                                        <input type="text" class="input" id="recipient-name">
+                                    </div>
+                                    <!--/Last Name-->
+                                    <!--Phone No-->
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="control-label">Phone No:</label>
+                                        <input type="text" class="input" id="recipient-name">
+                                    </div>
+                                    <!--/Phone No-->
+                                    <!--Email-->
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="control-label">Email:</label>
+                                        <input type="email" class="input" id="recipient-name">
+                                    </div>
+                                    <!--/Email-->
+                                    <!--DOB-->
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="control-label">Date of Birth:</label>
+                                        <input type="date" class="input" id="recipient-name">
+                                    </div>
+                                    <!--/DOB-->
+                                    <!--Gender-->
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="control-label">First Name:</label>
+                                        <input type="text" class="input" id="recipient-name">
+                                    </div>
+                                    <!--/Gender-->
+                                    <!--Country-->
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="control-label">Country:</label>
+                                        <select class="form-control">
+                                            <option>Pakistan</option>
+                                            <option>China</option>
+                                        </select>
+                                    </div>
+                                    <!--/Country-->
+                                    <!--City-->
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="control-label">City:</label>
+                                        <select class="form-control">
+                                            <option>Pakistan</option>
+                                            <option>China</option>
+                                        </select>
+                                    </div>
+                                    <!--/City-->
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="white-btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="main-btn">Save</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/Modals-->
 
                 <!-- Aside -->
                 <aside id="aside" class="col-md-3">
