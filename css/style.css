@@ -1942,10 +1942,8 @@ hr{
     .right-post-icon-div{
         margin: -30px auto 4% 80%;
     }
-}
-@media only screen and (max-width: 500px) {
-    .right-post-icon-div{
-        margin: -30px auto 4% 76%;
+    body{
+        font-size: 12px;
     }
 }
 .transparent-btn{
@@ -1956,6 +1954,43 @@ hr{
     overflow: hidden;
 }
 
+
 sup{
-    color:red;
+    color:red; 
+}
+
+.zero-margin{
+    margin: 0px;
+}
+.margin-left20{
+    margin-left: 20px;
+}
+.xsmall-h{
+    margin: 0px;
+    font-size: 16px;
+}
+.margin-both-lr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.edit-exp-round{
+    margin: -40px auto 4% 87%;
+    position:absolute;
+    width:100px;
+}
+@media only screen and (max-width: 1100px) {
+    .edit-exp-round{
+        margin: -40px auto 4% 84%;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .edit-exp-round{
+        margin: -40px auto 4% 80%;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .edit-exp-round{
+        margin: -40px auto 4% 76%;
+    }
+
 }
